@@ -1,4 +1,5 @@
-sudo apt update && sudo apt install -y htop nload git tmux zsh curl wget libreoffice vlc build-essential
+sudo apt update && sudo apt install -y htop nload git tmux zsh curl wget libreoffice vlc build-essential flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 # install oh my zshell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # install power 10k
@@ -21,3 +22,6 @@ brew install derailed/k9s/k9s
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
+
+# emote
+flatpak install com.tomjwatson.Emote
