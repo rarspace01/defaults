@@ -25,3 +25,6 @@ sudo ./aws/install
 
 # emote
 flatpak install com.tomjwatson.Emote
+
+#install sdkman for jdk
+curl -s "https://get.sdkman.io" | bash
