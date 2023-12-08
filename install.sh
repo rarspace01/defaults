@@ -28,7 +28,7 @@ flatpak install com.tomjwatson.Emote
 
 #install sdkman for jdk
 curl -s "https://get.sdkman.io" | bash
-sdk install java 21.0.1-tem
+sdk install java
 
 # docker
 sudo install -m 0755 -d /etc/apt/keyrings
