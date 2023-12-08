@@ -1,4 +1,7 @@
-sudo apt update && sudo apt install htop nload git tmux zsh curl wget
+sudo apt update && sudo apt install htop nload git tmux zsh curl wget libreoffice
+# install visual studio code
+wget -o code.deb https://code.visualstudio.com/sha/download\?build\=stable\&os\=linux-deb-x64 && sudo dpkg -i code.deb
+
 # install oh my zshell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # install power 10k
