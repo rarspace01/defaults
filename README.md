@@ -14,5 +14,7 @@ replaced --adaptive with --ignore-cpuid-check --workaround-enabled
 
 ```
 sudo systemctl daemon-reload
-sudo systemctl restart thermald 
+sudo systemctl restart thermald
+#test with
+sudo apt install -y stress && stress --cpu 8 -t 10
 ```
