@@ -18,3 +18,9 @@ sudo systemctl restart thermald
 #test with
 sudo apt install -y stress && stress --cpu 8 -t 10
 ```
+
+
+Copy SSH keys to remote
+```
+ssh-copy-id -i ~/.ssh/id_rsa.pub user@remotehost
+```
