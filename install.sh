@@ -23,8 +23,8 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
 unzip awscliv2.zip
 sudo ./aws/install
 
-# emote
-flatpak install com.tomjwatson.Emote
+# emojies
+flatpak install flathub it.mijorus.smile
 
 #install sdkman for jdk
 curl -s "https://get.sdkman.io" | bash
