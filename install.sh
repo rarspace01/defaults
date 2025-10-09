@@ -1,4 +1,4 @@
-sudo apt update && sudo apt install -y htop git zip 7zip unzip tmux zsh curl wget libreoffice vlc build-essential flatpak ca-certificates gnupg gimp inkscape variety
+sudo apt update && sudo apt install -y htop git zip 7zip unzip tmux zsh curl wget libreoffice vlc build-essential flatpak ca-certificates gnupg gimp inkscape variety indicator-multiload
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 # install oh my zshell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
