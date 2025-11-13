@@ -25,6 +25,7 @@ sudo ./aws/install
 
 # emojies
 flatpak install flathub it.mijorus.smile
+# install https://extensions.gnome.org/extension/6096/smile-complementary-extension/
 
 #install sdkman for jdk
 curl -s "https://get.sdkman.io" | bash
