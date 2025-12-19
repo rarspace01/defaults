@@ -1,4 +1,4 @@
-sudo apt update && sudo apt install -y htop git zip 7zip unzip tmux zsh curl wget libreoffice vlc build-essential flatpak ca-certificates gnupg gimp inkscape variety indicator-multiload
+sudo apt update && sudo apt install -y htop git zip 7zip unzip tmux zsh curl wget libreoffice vlc build-essential flatpak ca-certificates gnupg gimp inkscape variety indicator-multiload ttf-mscorefonts-installer
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 # install oh my zshell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -10,6 +10,7 @@ wget -o font3.ttf https://github.com/romkatv/powerlevel10k-media/raw/master/Mesl
 wget -o font4.ttf https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
 sudo cp ~/*.ttf /usr/share/fonts
 sudo fc-cache -f -v
+fc-cache -f -v
 # install rclone
 sudo -v ; curl https://rclone.org/install.sh | sudo bash
 # install visual studio code
