@@ -24,3 +24,9 @@ Copy SSH keys to remote
 ```
 ssh-copy-id -i ~/.ssh/id_rsa.pub user@remotehost
 ```
+
+Join audio (zsh needed)
+```
+audio-join() ffmpeg -i "concat:${(j:|:)@[2,-1]}" -acodec copy $1
+audio-join output.mp3 *.mp3
+```
